@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Johanna Weinzierl</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Johanna Weinzierl</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Johanna, an avid traveler, language nerd and nature enthusiast. Learn more about me below!</p>
+            <a href="#portfolio" class="btn">View My Recent Trips</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Recent Trips</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="img/IMG_9198.jpg" alt="Sri Lanka">
+                <h3>Sri Lanka</h3>
+                <p>Six weeks in Sri Lanka. Based in Weligama for four weeks, working remotely, and then exploring the country on vacation.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/IMG_8646.jpg" alt="Morocco">
+                <h3>Morocco</h3>
+                <p>A one-week surf and yoga camp to challenge the body and relax the mind.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/IMG_8823.jpg" alt="Munich">
+                <h3>Munich Hikes</h3>
+                <p>Getting a break does not always need to involve traveling to other countries. Sometimes relaxation is just a short car or train ride away.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Johanna, and I'm currently based in Munich, Germany, where winters are long and full of terrors. Which is why I'm making it a habit to escape to warmer countries during the winter months. Thanks to my employer I can work remotely – and I am happy to take you along on the journey.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+        <form action="mailto:example@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Johanna Weinzierl. All rights reserved.</p>
+    </footer>
+</body>
+</html>
